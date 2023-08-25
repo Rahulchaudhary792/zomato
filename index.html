@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "UTF-8">
+       <meta name = "Description" content = "MyDescription">
+       <meta name = "Author" content = "Id, Phonenumber">
+       <meta name = "Keywords" content = "HTML, CSS">
+       <meta name = "Viewport" content = "width=device-width, initial-scale=1.0">
+       <title>page</title>
+       <style>
+          .div1 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            top: 60px;
+          }
+          .image1 {
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            right: 2px;
+          }
+          .header1 {
+            display: block;
+            font-family: Arial;
+            text-align: center;
+          }
+          /*.p1 {
+            display: block;
+            margin-top: 30px;
+            position: relative;
+            right: 109px;
+            margin-top: 35px;
+            position: relative;
+            right: 109px;
+            font-family: Arial;
+            text-align: center;
+          }*/
+          .div2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+          }
+          .image2 {
+            width: 50px;
+            position: relative;
+            bottom: 60px;
+            top: 10px;
+            border-radius: 50%;
+            text-align: center;
+          }
+          .div3 {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 50px;
+            /*border-bottom: 2px solid lightgray;*/
+          }
+          .input1 {
+            width: 500px;
+            height: 35px;
+            border-radius: 5px;
+            border: 2px solid lightgray;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 10px lightgray;
+          }
+          .image3 {
+            width: 40px;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+          }
+          .image4 {
+            width: 30px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            text-align: center;
+          }
+          .image5 {
+            width: 95%;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 50px lightgray;
+            position: relative;
+            top: 15px;
+        }
+        .div5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 60px;
+        }
+          .header2 {
+            color: white;
+            font-family: Arial;
+          }
+          /*.image5:hover {
+            width: 400px;
+            height: 250px;
+          }*/
+          .div7 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px solid lightgray;
+            position: relative;
+            bottom: 60px;
+            margin-bottom: 0px;
+          }
+          .header3 {
+            color: rgb(143, 132, 132);
+            font-family: Arial;
+          }
+          .div8 {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+          }
+          .image6 {
+            width: 100px;
+            height: 100px;
+          }
+          .image7 {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+          }
+          .image8 {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+          }
+          .div9 {
+              border: 2px solid lightgray;
+              border-radius: 30px;
+              padding: 30px 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 10px;
+              margin-right: 10px;
+          }
+          .div10 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .div11 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div12 {
+            margin-left: 54px;
+            margin-right: 60px;
+            position: relative;
+            bottom: 47px;
+            font-family: Arial;
+          }
+          .div13 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 3px solid lightgray;
+          }
+          .header4 {
+            color: rgb(143, 132, 132);
+            font-family: Arial;
+          }
+          .div14 {
+            display: flex;
+            overflow-x: auto;
+            max-height: 120px;
+            margin-bottom: 20px;
+          }
+          .div15 {
+            min-width: 100px;
+            height: 100px;
+            /*background-color: lightgray;*/
+            margin-right: 20px;
+            text-align: center;
+          }
+          .div14::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+          }
+          .image9 {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+          }
+          .p2 {
+            color: rgb(116, 109, 109);
+            position: relative;
+            bottom: 15px;
+            font-family: Arial;
+          }
+          .div16 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px solid lightgray;
+          }
+          .header5 {
+            color: rgb(143, 132, 132);
+            font-family: Arial;
+          }
+          .div17 {
+            display: flex;
+            min-height: 70px;
+            overflow-x: auto;
+            margin-top: 20px;
+          }
+          .div18 {
+            min-width: 150px;
+            height: 20px;
+            margin-left: 10px;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px lightgray;
+            text-align: center;
+            font-family: Arial;
+          }
+          .image10 {
+            width: 10px;
+            height: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+          .div19 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .header6 {
+            color: rgb(143, 132, 132);
+            font-family: Arial;
+          }
+          .image11 {
+            width: 20px;
+            height: 25px;
+            text-align: center;
+            position: relative;
+            top: 0px;
+          } 
+          .div17::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+          }
+          .div20 {
+              width: 95%;
+              height: 390px;
+              border: 3px solid lightgray;
+              border-radius: 15px;
+              text-align: center;
+              position: relative;
+              top: 20px;
+              margin-left: 11px;
+              margin-bottom: 0px;
+              box-shadow: 3px 3px 20px lightgray;
+              /*display: flex;
+              justify-content: center;
+              align-items: center;*/
+          } 
+          .image12 {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            position: relative;
+            bottom: 0px;
+          }
+          .div21 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            bottom: 10px;
+            left: 10px;
+            margin-right: 20px;  
+          }
+          .header7 {
+            font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+          }
+          .header8 {
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            background-color: green;
+            padding: 2px 2px;
+            border-radius: 10px;
+          }
+          .image13 {
+            color: white;
+            width: 20px;
+            height: 20px;
+          }
+          .div22 {
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            position: relative;
+            margin-left: -15px;
+            bottom: 50px;
+          }
+          .ul2 {
+            display: grid;
+            grid-template-columns: 113px 115px 85px;
+            position: relative;
+            bottom: 40px;
+          }
+          .li1 {
+            list-style: none;
+          }
+          .image14 {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+          }
+          .li2 {
+            list-style: none;
+            margin-left: -70px;
+          }
+          .li3 {
+            margin-left: -80px;
+          }
+          .div23 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            bottom: 80px;
+            right: 15px;
+          }
+          .ul1 {
+            display: grid;
+            grid-template-columns: 100px 100px 70px;
+            position: relative;
+            bottom: 40px;
+          }
+          .div24 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            bottom: 153px;
+            left: 26px;
+          }
+          .header9 {
+            color: blue;
+            font-family: Arial;
+          }
+          .div25 {
+            width: 95%;
+            height: 390px;
+            border: 3px solid lightgray;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            margin-left: 11px;
+            box-shadow: 3px 3px 20px lightgray;
+          }
+          .div26 {
+            width: 95%;
+            height: 380px;
+            border: 3px solid lightgray;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            margin-top: 0px;
+            margin-left: 11px;
+            box-shadow: 3px 3px 20px lightgray;
+          }
+          .image15 {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 40px;
+            top: 20px;
+          }
+          .image16 {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 5px;
+            top: 20px;
+            border-radius: 50%;
+          }
+          .div28 {
+            position: fixed;
+            left: 0;
+            bottom:0;
+            background-color: white;
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+          }
+          .div29 {
+            display: grid;
+            grid-template-columns: 70px 70px 70px 70px;
+            column-gap: 20px;
+            margin-left:30px;
+            text-align: center;
+          }
+          .image17 {
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            position: relative;
+            left: 5px;
+            border-radius: 50%;
+          }
+          .header10 {
+            font-family: Arial;
+          }
+          .div30 {
+            position: fixed;
+            left: 0;
+            top:0px;
+            background-color: white;
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2; 
+          }
+          .div31 {
+              width: 95%;
+              height: 390px;
+              border: 3px solid lightgray;
+              border-radius: 15px;
+              text-align: center;
+              position: relative;
+              top: 20px;
+              margin-left: 11px;
+              margin-bottom: 0px;
+              box-shadow: 3px 3px 20px lightgray;
+          }
+          .select1 {
+              width: 20px; 
+              background-color: white;
+              border: none;
+          }
+          .js-button1 {
+              color: white;
+              background-color: black;
+              border-radius: 3px;
+              font-family: Arial;
+          }
+          body {
+            background-color: white;
+            margin-left: 30px;
+          }
+       </style>
+    </head>
+    <body class = "body1">
+        <div class = "div28">
+            <div class = "div29">
+                <h4 class = "header10">
+                    <img src = "https://th.bing.com/th/id/OIP.N9hA4X9CSqUlIxiq7wQBSwHaHE?pid=ImgDet&w=626&h=598&rs=1" class = "image17">
+                    Delivery
+                </h4>
+                <h4 class = "header10">
+                    <img src = "https://www.midhafurniture.com/upload/products/Flaybern_Dining_Room_Set.jpg" class = "image17">
+                    Dining</h4>
+                <h4 class = "header10">
+                    <img src = "https://pngimg.com/uploads/wallet/wallet_PNG7499.png" class = "image17">
+                    Money</h4>
+                <h4 class = "header10">
+                    <img src = "https://th.bing.com/th/id/OIP.aSVYTnbZKzfYbdWJF02PTgHaFI?pid=ImgDet&w=1040&h=720&rs=1" class = "image17">
+                    Blinkit</h4>
+            </div>
+        </div>
+        <div class = "div4">
+            <div>
+                <div class = "div1">
+                    <img src = "https://th.bing.com/th/id/OIP.jsBQL04RxeNPuuCRzQlpkAHaHa?pid=ImgDet&rs=1" class = "image1">
+                    <h3 class = "header1">Lingampally</h3>
+                    <!--<img src = "https://cdn1.iconfinder.com/data/icons/ios-11-ui-elements-vol-1/29/25_dropdown_menu_down_arrow-512.png" class = "image11 js-image1">
+                    <div class = "js-div1"></div>-->
+                    <select class = "select1">
+                      <option class = "op1" onclick = "op1()">Lingampally</option>
+                      <option class = "op2" onclick = "op2()">Barkatpura</option>
+                      <option class = "op3" onclick = "op3()">Himayatnagar</option>
+                      <option class = "op4" onclick = "op4()">LB Nagar</option>
+                      <option class = "op5" onclick = "op5()">Dilsukhnagar</option>
+                      <option class = "op6" onclick = "op6()">Madhapur</option>
+                      <option class = "op7" onclick = "op7()">Shakipet</option>
+                    </select>
+                </div>
+            </div>
+            <div class = "div2">
+                <img src = "https://th.bing.com/th/id/R.fd5a137d4cc43657449836c511c422e1?rik=xs4NJnZD7SrL9w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24787.png&ehk=XT7ycIEO1QBstZHkYYA%2fmHm7bSjaBM1nSo61Bl%2bnJSs%3d&risl=&pid=ImgRaw&r=0" class = "image2">
+            </div>
+            <div class = "div30 div3">
+                <img src = "https://th.bing.com/th/id/OIP._RTO9yp1xH5aQA0vS7fpHAHaHW?pid=ImgDet&rs=1" class = "image4">
+                <input type = "search" class = "input1" placeholder = 'Search "Curd Rice"'/>
+                <img src = "https://static.vecteezy.com/system/resources/previews/000/425/274/original/microphone-icon-vector-illustration.jpg" class = "image3">
+            </div>
+        </div>
+        <div class = "div5">
+            <img src = "https://th.bing.com/th/id/R.25df87f8b1e255290d0652d1eb99ee57?rik=gE7TH5VSkNj3iQ&riu=http%3a%2f%2fblog.hdwallsource.com%2fwp-content%2fuploads%2f2015%2f01%2fitalian-food-wallpaper-hd-44478-45604-hd-wallpapers.jpg&ehk=0IwG2V7UvU20tfm02V2VdAAAV6OdjhX%2f3mGjBZXSPNk%3d&risl=&pid=ImgRaw&r=0" class = "image5">
+        </div>
+        <div class = "div6">
+            <h2 class = "header2">World Food Fest</h2>
+        </div>
+        <div class = "div7">
+            <h3 class = "header3">EXPLORE</h3>
+        </div>
+        <div class = "div10">
+            <div class = "div8">
+                <div class = "div9">
+                    <img src = "https://th.bing.com/th/id/R.03591f2b382e54f5d2a3181478671f55?rik=3tgVa%2fEBPMGMWQ&riu=http%3a%2f%2fwww.yurtopic.com%2ffood%2fcooking%2fimages%2fworld-of-gourmet%2fRoasted-mushrooms2.jpg&ehk=sDcCa0pH1%2bpsvZhUdi4aXG8o8kevmxiLWOL0efYhiRY%3d&risl=&pid=ImgRaw&r=0" class = "image7">
+                </div>
+                <div class = "div9">
+                    <img src = "https://th.bing.com/th/id/OIP.vjTJhFAWcDfW0WY2jTMw6wHaE8?pid=ImgDet&rs=1" class = "image8">
+                </div>
+            </div>
+        </div>
+        <div class = "div11">
+            <div class = "div12">
+                <h3>Gourmet</h3>
+            </div>
+            <div class = "div12">
+                <h3>Healthy</h3>
+            </div>
+        </div>
+        <div class = "div13">
+            <h3 class = "header4">WHAT'S ON YOUR MIND?</h3>
+        </div>
+        <div class = "div14">
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.ur3rFKWe-tQHnEOvzQbTkgHaE8?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Pizza</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490" class = "image9">
+               <p class = "p2">Burger</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/uz3nvrhtyqbweely3wfp" class = "image9">
+               <p class = "p2">Biryani</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://cdn.britannica.com/50/80550-050-5D392AC7/Scoops-kinds-ice-cream.jpg" class = "image9">
+               <p class = "p2">Ice cream</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://foodiewish.com/wp-content/uploads/2020/05/Masala-Dosa-Recipe.jpg" class = "image9">
+               <p class = "p2">Dosa</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.xqPz4aqjy4eufEdyfQiyZwHaHa?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Thali</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.fbmteUWIfkCuXM7a5Ex7rQHaHa?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Shawarma</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.Twu9HhuQ3edwcBV37SAAngHaLJ?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Shake</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.5GC9FgtWrv2sWLmz5sjOtwHaFj?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Mandi</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.nLsW6EI7W_KwH7FPjQ4TvwHaEd?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Idli</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://sallysbakingaddiction.com/wp-content/uploads/2014/09/buttermilk-waffles-recipe.jpg" class = "image9">
+               <p class = "p2">Waffles</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2019/Cheesy_Vada_Pav_Recipe_Britannia_Cheesy_Kitchen_Recipe_Video_20_1600.jpg" class = "image9">
+               <p class = "p2">Vadapav</p>
+            </div>
+            <div class = "div15">
+               <img src = "https://th.bing.com/th/id/OIP.XEn1CCa7xc_ZZ6_yHQ6LMAHaG5?pid=ImgDet&rs=1" class = "image9">
+               <p class = "p2">Pavbhaji</p>
+            </div>
+        </div>
+        <div class = "div16">
+            <h3 class = "header5">ALL RESTAURANTS</h3>
+        </div>
+        <div class = "div17">
+            <div class = "div18">
+                 <img src = "https://th.bing.com/th/id/R.1c4c23babc3f2ac8ab28156323303f3f?rik=%2f6ImWYXQhnPlNw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_391384.png&ehk=9ym%2fOQKDzAtwNwy3om8vnEA7hDQ9jgzhJaHIM45m6Lc%3d&risl=&pid=ImgRaw&r=0" class = "image10">
+                 Sort
+                 <img src = "https://th.bing.com/th/id/OIP.54607RVX9o0_RNfkGQVURQHaHa?pid=ImgDet&rs=1" class = "image10">
+            </div>
+            <div class = "div18">
+                 Award Winners
+            </div>
+            <div class = "div18">
+                 Great Offers
+            </div>
+            <div class = "div18">
+                 Nearest
+            </div>
+            <div class = "div18">
+                 Rating 4.0+
+            </div>
+            <div class = "div18">
+                 Previously Ordered
+            </div>
+            <div class = "div18">
+                 Pure Veg
+            </div>
+            <div class = "div18">
+                 Gourmet
+            </div>
+            <div class = "div18">
+                New Arrivals
+            </div>
+            <div class = "div18">
+                Cuisines
+            </div>
+        </div>
+        <div class = "div19">
+            <h5 class = "header6">1797 restaurants delivering to you</h5>
+        </div>
+        <div class = "div19">
+            <h4 class = "header6">FEATURED</h4>
+        </div>
+        <div class = "div20">
+            <img src = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">PISTA HOUSE</h2>
+                <h2 class = "header8">4.1<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">South Indian</li>
+            <li>Hyderabadi</li>
+            <li>&#8377;250 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">25-35 min</li>
+            <li class = "li3">2km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">Flat &#8377;75 OFF</h3>
+        </div>
+        <div class = "div25">
+            <img src = "https://th.bing.com/th/id/OIP.XZmgDPJC-SlK8FOXnQyZEQHaFc?pid=ImgDet&rs=1" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">FB CAKES</h2>
+                <h2 class = "header8">4.1<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Bakery</li>
+            <li>Hyderabadi</li>
+            <li>&#8377;200 for one</li>
+          </ul>
+        </div>
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">20-25 min</li>
+            <li class = "li3">1km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">Flat @ &#8377;59 OFF</h3>
+        </div>
+        <div class = "div27">
+ 
+        </div>
+        
+        <script>
+            let input1 = document.querySelector('.input1');
+            let div27 = document.querySelector('.div27');
+            let header1 = document.querySelector('.header1');
+            let opo1 = document.querySelector('.op1');
+            let opo2 = document.querySelector('.op2');
+            let opo3 = document.querySelector('.op3');
+            let opo4 = document.querySelector('.op4');
+            let opo5 = document.querySelector('.op5');
+            let opo6 = document.querySelector('.op6');
+            let opo7 = document.querySelector('.op7');
+            let opVal1 = opo1.value; 
+            let opVal2 = opo2.value; 
+            let opVal3 = opo3.value; 
+            let opVal4 = opo4.value; 
+            let opVal5 = opo5.value; 
+            let opVal6 = opo6.value; 
+            let opVal7 = opo7.value; 
+            function p1() {
+                let p1 = new Promise((resolve,reject) => {
+                    setTimeout(() => {
+                       input1.placeholder = 'Search "Biryani"';
+                       p2();
+                    },2000)
+                })
+            }
+            function p2() {
+                let p2 = new Promise((resolve,reject) => {
+                    setTimeout(() => {
+                       input1.placeholder = 'Search "Pasta"';
+                       p1();
+                    },3000)
+                })
+            }
+            function p3() {
+                let p3 = new Promise((resolve,reject) => {
+                    setTimeout(() => {
+                       input1.placeholder = 'Search "Thali"';
+                       p2();
+                    },4000)
+                })
+            }
+            p3();
+            div27.innerHTML = `
+            <div class = "div20">
+            <img src = "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2019/12/0/0/Ice-Cream-Scoops.jpg?ve=1&tl=1" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">SCOOPS ICE CREAM</h2>
+                <h2 class = "header8">4.4<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Ice Cream</li>
+            <li>Desserts</li>
+            <li>&#8377;100 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">15-20 min</li>
+            <li class = "li3">1km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">20% OFF up to &#8377;50</h3>
+        </div>
+        <div class = "div20">
+            <img src = "https://th.bing.com/th/id/OIP.w5SrKdrUCjXLW0xsmjEl7wHaLG?pid=ImgDet&rs=1" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">Vac's Pastries</h2>
+                <h2 class = "header8">4.4<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Bakery</li>
+            <li>Fast Food</li>
+            <li>&#8377;200 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1">
+            <img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">
+            45-50 min</li>
+            <li class = "li3">
+            8km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">Flat &#8377;75 OFF</h3>
+        </div>
+        <div class = "div20">
+            <img src = "https://www.cityam.com/wp-content/uploads/2020/01/Screenshot-2020-01-06-at-10.55.39.png" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">Burger King</h2>
+                <h2 class = "header8">4.0<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Burger</li>
+            <li>Fast Food</li>
+            <li>&#8377;150 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">35-40 min</li>
+            <li class = "li3">1km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">Get items @ &#8377;159 only</h3>
+        </div>
+        <div class = "div20">
+            <img src = "https://th.bing.com/th/id/R.4ecd17752fa260237407aa745a177f75?rik=0YqOlfBbvATvWg&riu=http%3a%2f%2fpngimg.com%2fuploads%2fkfc_food%2fkfc_food_PNG27.png&ehk=uDtik%2beZiTFAxQqV4gaeG%2bqD3om3OlEpSZ09n4m%2bXYA%3d&risl=1&pid=ImgRaw&r=0" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">KFC</h2>
+                <h2 class = "header8">3.9<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Burger</li>
+            <li>Fast Food</li>
+            <li>&#8377;200 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">15-20 min</li>
+            <li class = "li3">1km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">Free Chicken Popcorn - Medium</h3>
+        </div>
+        <div class = "div20">
+            <img src = "https://www.hdwallpapersfreedownload.com/uploads/large/fruits/gorgeous-mix-fresh-fruits-hd.jpg" class = "image12">
+            <img src = "https://th.bing.com/th/id/R.209df2ede7376ff441c240d3dea99bb3?rik=7UryVfszDbQ43w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc8%2f5RR%2fdc85RR9ei.png&ehk=CWxo0E1ZXsI8ohK4L%2buW2SMlVugY0hBi78tvXvVb6zo%3d&risl=&pid=ImgRaw&r=0" class = "image15">
+            <img src = "https://www.shutterstock.com/image-vector/three-dots-setting-menu-option-260nw-1769682806.jpg" class = "image16">
+            <div class = "div21">
+                <h2 class = "header7">Fruitfull</h2>
+                <h2 class = "header8">4.1<img src= "https://th.bing.com/th/id/R.d0eabbc417068cb82e08ac6707d7b5ae?rik=uU29MhYM4%2bJVAQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2feiM%2f7yX%2feiM7yXz9T.png&ehk=qUggFBt0cS5YUQaoZpwOvrLVd2jsRHnQv4eqxrQXTkA%3d&risl=&pid=ImgRaw&r=0" class = "image13"></h2>
+            </div>
+        </div>
+        <div class = "div22">
+          <ul class = "ul2">
+            <li class = "li1">Healthy Food</li>
+            <li>Desserts</li>
+            <li>&#8377;150 for one</li>
+          </ul>
+        </div>
+        <!--1st item-->
+        <div class = "div23">
+          <ul class = "ul1">
+            <li class = "li1"><img src = "https://th.bing.com/th/id/OIP.ZEJaaRxlOlxgmclQP7ASTgHaJQ?pid=ImgDet&rs=1" class = "image14"></li>
+            <li class = "li2">20-25 min</li>
+            <li class = "li3">2km</li>
+          </ul>
+        </div>
+        <div class = "div24">
+            <h3 class = "header9">20% OFF up to &#8377;50</h3>
+        </div>
+            `
+        function op1() {
+          header1.innerHTML = opVal1;
+        }
+        function op2() {
+          header1.innerHTML = opVal2;
+        }
+        function op3() {
+          header1.innerHTML = opVal3;
+        }
+        function op4() {
+          header1.innerHTML = opVal4;
+        }
+        function op5() {
+          header1.innerHTML = opVal5;
+        }
+        function op6() {
+          header1.innerHTML = opVal6;
+        }
+        function op7() {
+          header1.innerHTML = opVal7;
+        }
+        </script>
+    </body>
+</html>
